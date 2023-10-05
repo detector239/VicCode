@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1689408144 source:c:\repos\vicprojects\c--\ene\ene_3\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<vector>
+	<string>
+

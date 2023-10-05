@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1687519537 source:c:\repos\vicprojects\c--\logical_operators\main.cpp
+	<iostream>
+	<string>
+

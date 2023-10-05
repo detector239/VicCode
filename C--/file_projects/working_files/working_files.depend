@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1691920620 source:c:\repos\vicprojects\c--\file_projects\working_files\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

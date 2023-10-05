@@ -1,0 +1,9 @@
+1. De afisat lista persoanelor care au varsta de 26 ani
+
+2. De afisat lista persoanelor cu firstname="Alma".
+
+3. De afisat lista persoanelor cu firstname="Potter" si pick="GREEN".
+
+4. Care e varsta medie a persoanelor care traiesc in state="NH"?
+
+5. Care e salariul mediu (campul "dollar") a tuturor persoanelor?

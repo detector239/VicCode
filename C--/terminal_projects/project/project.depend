@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1692455629 source:c:\repos\vicprojects\c--\terminal_projects\project\source.cpp
+	<iostream>
+	<cstring>
+	"./header.h"
+
+1692455668 c:\repos\vicprojects\c--\terminal_projects\project\header.h
+
+1692615317 source:c:\repos\vicprojects\c--\terminal_projects\my_library.cpp
+	<iostream>
+
+1692615510 source:c:\repos\vicprojects\c--\terminal_projects\project\main.cpp
+	<iostream>
+	<cstring>
+	"./header.h"
+	"../my_library.cpp"
+
+1692616131 c:\repos\vicprojects\c--\terminal_projects\my_library.cpp
+	<iostream>
+

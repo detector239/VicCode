@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1693727142 source:c:\repos\vicprojects\c--\terminal_projects\operating_overloading\main.cpp
+	<iostream>
+	"position.h"
+
+1693726939 c:\repos\vicprojects\c--\terminal_projects\operating_overloading\position.h
+	<iostream>
+
+1693727055 source:c:\repos\vicprojects\c--\terminal_projects\operating_overloading\position.cpp
+	<iostream>
+	"position.h"
+

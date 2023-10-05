@@ -1,0 +1,158 @@
+=======================================================
+=== Sarcina. Luna anului
+Scriptul Python determina luna curenta si afiseaza denumirea la ecran.
+
+Modificare: Cere de la utilizator un numar intre 1-12.
+
+Modificare: Nu permite altceva si alt numar in afara de 1-12.
+
+Modificare: Permite orice numar, il imparte la 12 si restul va fi numarul lunii
+
+=======================================================
+=== Sarcina. Aruncare zar.
+Scriptul Python alege aleator (random) un numar intre 1-6 si il afiseaza la ecran.
+
+Modificare: Face asta de 10 ori si afiseaza la ecran. Care numar mai des a aparut?
+
+Modificare: Face asta de 100, 1000, ... ori.
+
+Modificare: Intreba utilizatorul cate ori sa lanseze.
+
+Modificare: Salveaza rezultatul fiecarei alegeri aleatorii intr-un array. Afiseaza la ecran doar array-ul.
+
+=======================================================
+=== Sarcina. 
+
+=======================================================
+=== Sarcina. 
+
+=======================================================
+=== Sarcina. 
+
+=======================================================
+=== Sarcini de la Andreea Ene, andreaaene.12@gmail.com
+
++1. Write a program that reads two numbers, a,b, and outputs the one which is greater. If the numbers are equal, then the program should print the message "the numbers are equal". 
+
++2. Write a program that reads a number from the input and checks if the number is even. If true, then the program prints "EVEN", otherwise it prints "ODD".
+
++3. Write the program that outputs the maximum out of 3 numbers read from standard input. 
+Sample input: 2 4 1
+Sample output: 4
+
+4. Write a program that computes your grade for the Programming course:
+lab_grade = (test_1 + test_2)/2
+final_grade = 70% lab_grade + 30% exam_grade
+The input consists of three grades, for the first test, for the second test, and for the exam. 
+If any of the lab grade or the exam grade are less than 5 the program will print: "failed". Otherwise, the program will print the final grade. 
+Sample input: 4 10 8
+Sample output: 7.3
+
+5.  Write a program that finds the roots of a second degree equation. Considering the equation of the form 
+ax2+bx+c, the program will read a, b, and c from standard input. The program will output the two solutions for when the equation equals 0. 
+Sample input: 1  6  5
+Sample output: -5.0   -1.0
+
++6. Write a program that reads an integer number from standard input and computes the sum of its digits. 
+
+7. Write a program that reads a number, N, from standard input and computes the sum of the first N natural numbers (N included). 
+Sample input: 3
+Sample output: 6
+
++8. Write a program that reads a number, N, from standard input and prints all its divisors (except for 1 and N). 
+Sample input: 12
+Sample output: 2 3 4 6
+
++9. Write a program that reads a string from standard input and prints each character in the string, except spaces, using the for instruction. 
+
++10. Write a program that reads an integer, N, and outputs all even numbers less than N, including N if its even. 
+
++11. Write a program that reads a number and displays a corresponding triangle, as shown in the sample input/output. 
+Sample Input:
+5
+Sample Output:
+*
+**
+***
+****
+*****
+
++12.Write a program that reads an integer number, N, and outputs True if N is a prime number, and False otherwise. A number is prime if its only divisors are 1 and N itself. You can use the break instruction to stop the loop early if the number is not prime. 
+
++13. Write a program that reads a number, N, and then reads N lines representing words. The program will add each word to a list which will be printed after reading all words. 
+Sample Input:
+5
+the
+quick
+turtle
+steals
+lettuce
+Sample Output:
+['the', 'quick', 'turtle', 'steals', 'lettuce']
+
++14. Given two lists of numbers, ln1, ln2, constructed before your code, print all elements from ln1 that also appear in ln2.
+ln1 = 5 6 7 9
+ln2 = 7 2 5 9
+Output:
+5 7 9
+
++15.Given a list of numbers, ln1, constructed before your code, print a new list which counts how many times each digit appears throughout all of the numbers from list ln1.
+Sample Input:
+123 45 67 89 102
+Sample Output:
+[1, 2, 2, 1, 1, 1, 1, 1, 1, 1]
+(daca puteti sa il faceti pe asta va rog sa imi spuneti si mie mersi anticipat )
+
++16. Write a program that reads an integer number and outputs its reverse. 
+
+17. Write a program that reads an integer number and outputs a list containing its binary representation. 
+
++18. Write a program that reads an integer number and outputs a list containing its divisors (except 1 and the number itself) in ascending order. If the number is prime, an empty list will be printed.
+
++19. Write a program that outputs the list containing the first N Fibonacci numbers. 
+The Fibonacci sequence starts with F0=1,F1=1 and all other terms are computed using the formula Fn=Fn−1+Fn−2
+Sample Input:
+5
+Sample Output:
+[1, 1, 2, 3, 5]
+
+20. The decimal number, 585 = 1001001001 (binary), is palindromic in both bases. Write a program that reads a number and checks if its palindromic in both bases. 
+
++21. Write a program that reads a number and creates a set containing all of its digits.
+
+22. Write a program that computes the total weight of all items in a shopping bag. The program will read N (the number of items) and then it will read two lines for each item. The first line represents the item name and the second represents its weight. The program will output a dictionary containing the total weight for each item. 
+Sample Input:
+4
+coffee
+500
+sugar
+1000
+coffee
+500
+milk
+1500
+Sample Output:
+{'coffee': 1000, 'sugar': 1000, 'milk': 1500}
+
++23.Write a program that reads a sentence from standard input and counts how many times each letter appears in the sentence. 
+The program should respect the output style presented in the sample. 
+Sample Input:
+It's tea time
+Sample Output:
+I :  1
+t :  3
+' :  1
+s :  1
+  :  2
+e :  2
+a :  1
+i :  1
+m :  1
+
++24.Write a program that creates a statistic about the number of vowels appearing in a sentence. The program reads a sentence from the standard input and outputs the corresponding dictionary. Count uppercase and lowercase vowels together. 
+Sample Input:
+Mary learns programming.
+Sample Output:
+{'a': 3, 'e': 1, 'o': 1, 'i': 1}
+
+25. Write a program that reads a matrix of 3 rows and 3 columns and outputs the elements of the main diagonal. 

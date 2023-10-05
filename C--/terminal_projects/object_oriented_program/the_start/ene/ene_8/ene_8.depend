@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1689577911 source:c:\repos\vicprojects\c--\ene\ene_8\main.cpp
+	<iostream>
+	<vector>
+

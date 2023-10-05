@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1691919130 source:c:\repos\vicprojects\c--\file_projects\make_files\main.cpp
+	<iostream>
+	<stdio.h>
+	<fstream>
+	<string>
+	<vector>
+

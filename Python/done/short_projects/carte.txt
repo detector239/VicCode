@@ -1,0 +1,33 @@
+﻿def verify(a):
+    try:
+        nr1 = int(input(a))
+    except ValueError:
+        print("ERROR! You didn't input number. Quiting.")
+        quit()
+    return nr1
+
+
+print("Now we make a calculator.")
+
+nr1 = verify("Input the first number: ")
+operation = input("Input the operation: ")
+nr2 = verify("Input the secund number: ")
+
+
+
+def calculator():
+    if operation == "+" :
+        z = nr1 + nr2
+    elif operation == "-" :
+        z = nr1 - nr2
+    elif operation == ":" :
+        z = nr1 / nr2
+    elif operation == "*" :
+        z = nr1 * nr2
+    else:
+        print("ERROR! You didn't input operation. Quiting.")
+        quit()
+    return z
+
+print(calculator())
+calculator()

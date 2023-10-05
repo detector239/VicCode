@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1692195336 source:c:\repos\vicprojects\c--\terminal_projects\swap\main.cpp
+	<iostream>
+	<string>
+

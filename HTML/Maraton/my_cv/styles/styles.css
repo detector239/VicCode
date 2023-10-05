@@ -1,0 +1,144 @@
+﻿.web_section{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 48px auto;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+/* right section */
+.main_section li{
+    color: rgb(0, 101, 144);
+}
+
+.main_section{
+    padding-left: 90px;
+    background-color: #FFFFFF;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-me_section{
+    width: 400px;
+}
+
+#Profesion{
+    font-size: 14px;
+    color: black;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 100px;
+}
+
+#name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 30px;
+}
+
+#description{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    padding-right: 20px;
+}
+
+.projects_section{
+    margin-top: 40px 0 0 0;
+}
+
+#projects_title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.projects_section ol{
+    padding-left: 15px;
+}
+
+.projects a, .work_period, #edu_period{
+    color: #595959;
+}
+
+ol li, .bracket, .line{
+    color: #000;
+    font-weight: 700;
+}
+
+.projects{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    margin-left: 10px;
+    color: #595959;
+}
+
+.color-text{
+    color: #FB6D3A;
+}
+
+.work_section ul{
+    padding-left: 20px;
+}
+/* sidebar section */
+
+.sidebar_section{
+    background-color: #1e2939;
+    color: greenyellow;
+    width: 370px;
+}
+
+.sidebar_section img{
+    margin-top: 40px;
+}
+
+.sidebar-text{
+    margin-left: 40px;
+}
+
+.contacts-type{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 10px;
+}
+
+.contacts-value{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.TechS-ul, .SoftS-section ul{
+    color: #FB6D3A;
+    padding-left: 20px;
+}
+
+.TechS-ul span, .SoftS-section ul span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: greenyellow;
+}
