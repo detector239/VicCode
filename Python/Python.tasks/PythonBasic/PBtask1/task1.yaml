@@ -1,0 +1,15 @@
+
+food1:
+  name: "mamaliga"
+  ingredient:
+    cornmeal: 200
+    water: 1000
+    salt: 1
+    butter: 2
+
+food2:
+  name: "fried ./'';]: eggs"
+  ingredient:
+    eggs: 3
+    olive_oil: 2
+    salt: 1

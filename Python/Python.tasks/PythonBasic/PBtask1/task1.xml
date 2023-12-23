@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Food>
+    <first>
+        <name>mamaliga</name>
+        <ingredients>
+            <cornmeal>200</cornmeal>
+            <water>1000</water>
+            <salt>1</salt>
+            <butter>2</butter>
+        </ingredients>
+    </first>
+
+    <second>
+        <name>fried eggs</name>
+        <ingredients>
+            <eggs>3</eggs>
+            <olive_oil>2</olive_oil>
+            <salt>1</salt>
+        </ingredients>
+    </second>
+</Food>
