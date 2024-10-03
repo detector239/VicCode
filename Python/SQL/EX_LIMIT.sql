@@ -1,0 +1,5 @@
+-- GET TEH TOP THREE LOYAL CUSTOMERS
+SELECT *
+FROM customers
+ORDER BY points desc
+LIMIT 3
