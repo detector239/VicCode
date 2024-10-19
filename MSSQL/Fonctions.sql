@@ -1,3 +1,3 @@
-SELECT count(*) FROM KCC.dbo.Orders -- this is a function <<count()>>(it will return nnothing because the current date is way in the future and there is no orders from this time)
-WHERE OrderDate >= Dateadd(month, -1, getdate()) -- this is also a function
--- for all the functions: https://learn.microsoft.com/en-us/sql/t-sql/functions/
+SELECT sum(OrderTotal) FROM KCC.dbo.Orders -- this is a function <<sum()>>
+WHERE OrderDate >= Dateadd(year, -3, getdate()) -- this is also a function
+GROUP BY CustomerID -- the list of all the functions: https://learn.microsoft.com/en-us/sql/t-sql/functions/
