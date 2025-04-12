@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elemente Semantice HTML</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header, nav, section, article, aside, footer {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+header {
+  background-color: lightblue;
+}
+
+nav {
+  background-color: lightcoral;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 2px;
+}
+
+section {
+  background-color: lemonchiffon;
+}
+
+article {
+  background-color: lightgreen;
+}
+
+aside {
+  background-color: lightgray;
+  grid-row: 1 / span 2;
+}
+
+footer {
+  background-color: lightsalmon;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5em;
+}
+</style>
+<body>
+  <header>Header</header>
+  <nav>Nav</nav>
+  <main>
+    <section>Section</section>
+    <aside>Aside</aside>
+    <article>Articol</article>
+  </main>
+  <footer>Footer</footer>
+</body>
+</html>
