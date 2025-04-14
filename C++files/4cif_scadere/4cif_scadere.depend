@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1739391006 source:/home/victor/Repos/VicCode/C++files/4cif_scadere/main.cpp
-	<iostream>
-	<algorithm>
-	<cmath>
-
